@@ -89,7 +89,7 @@ const Navbar = () => {
     : 'fixed left-[-100%] top-0 ease-in duration-500'}>
     <div className='flex w-full items-center justify-between'>
     <Link href='/#home'>
-        <Image src='/../public/assets/CHASELogo.png' 
+        <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/CHASELogo.png?raw=true' 
         alt='Logo' width='85' height='85' objectFit='cover' />
         </Link>
         <div className=' cursor-pointer'>
