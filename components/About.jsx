@@ -8,7 +8,7 @@ const About = () => {
     <div className='col-span-2'>
     <p className='uppercase text-xl tracking-widest font-medium text-[#0e61c9]'>About</p>
     <h2 className='py-4'>Who I Am</h2>
-    <p className='py-2 text-[#434346]'>I`&apos;`m not your average developer</p>
+    <p className='py-2 text-[#434346]'>I&apos;m not your average developer</p>
     <p className='py-2 text-[#434346]'>
     I have spent the last 12 years in the fire service working as a
             professional firefighter/paramedic. I have always had a knack for

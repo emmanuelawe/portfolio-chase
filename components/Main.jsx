@@ -10,14 +10,14 @@ const Main = () => {
     justify-center items-center'>
         <div>
         <p className='uppercase pt-40 tracking-widest font-medium text-sm text-[#434346]'>
-        Let`&apos;`s build something legendary together</p>
+        Let&apos;s build something legendary together</p>
         <h1 className='py-4 text-[#434346]'>
-        Hi, I`&apos;`m <span className='text-[#0e61c9]'>Emmanuel</span></h1>
+        Hi, I&apos;m <span className='text-[#0e61c9]'>Emmanuel</span></h1>
         <h1 className='py-2 text-[#434346]'>
             A Front-End Web Developer
         </h1>
-        <p className='py-4 text-[#434346] max-w-[70%] m-auto font-medium'>I`&apos;`m a front-end web developer specializing in building (and occasionally designing)
-        exceptional digital experiences. Currently, I`&apos;`m focused on building responsive
+        <p className='py-4 text-[#434346] max-w-[70%] m-auto font-medium'>I&apos;m a front-end web developer specializing in building (and occasionally designing)
+        exceptional digital experiences. Currently, I&apos;m focused on building responsive
         front-end web applications while learning back-end technologies.</p>
         
             <div className='items-center flex justify-between max-w-[330px] m-auto py-4'>
