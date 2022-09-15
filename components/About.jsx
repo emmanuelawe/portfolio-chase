@@ -30,7 +30,7 @@ const About = () => {
 
     <div className='w-full h-auto m-auto flex items-center 
     justify-center p-4 hover:scale-105 ease-in duration-500 rounded-full shadow-lg shadow-gray-400'>
-        <Image  src='/../public/assets/Chasepfp.png' alt='' 
+        <Image  src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/Chasepfp.png?raw=true' alt='' 
         width='350' height="350" objectFit='cover' />
     </div>
 

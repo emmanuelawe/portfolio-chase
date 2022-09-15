@@ -53,7 +53,7 @@ const Navbar = () => {
     
     <div className='pl-6'>
     <Link href='/#home'>
-    <Image src='/../public/assets/CHASELogo.png' 
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/CHASELogo.png?raw=true' 
     alt='Logo' width='100' height='100' objectFit='cover'
      />
      </Link>
