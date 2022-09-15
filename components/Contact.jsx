@@ -20,7 +20,7 @@ const Contact = () => {
     shadow-gray-400 rounded-xl p-4 '>
     <div>
         <Image className='rounded-xl hover:scale-105 ease-in duration-300' 
-        src='/../public/assets/contact.jpg' alt='' 
+        src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/contact.jpg?raw=true' alt='' 
         width='450' height='450' objectFit='cover' />
     </div>
     <div>

@@ -13,7 +13,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/html.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/html.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -25,7 +25,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/css.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/css.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -37,7 +37,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/javascript.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/javascript.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -46,11 +46,23 @@ const Skills = () => {
     </div>
     </div>
 
+    <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
+    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+    <div className='m-auto'>
+    <Image src='https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg' alt=''
+    width='64' height='64px' />
+    </div>
+    <div className='flex flex-col items-center justify-center'>
+    <h3>TypeScript</h3>
+    </div>
+    </div>
+    </div>
+
 
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/react.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/react.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -62,7 +74,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/nextjs.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/nextjs.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -74,7 +86,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/node.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/node.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -86,7 +98,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/tailwind.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/tailwind.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -98,7 +110,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/chakra.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/chakra.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -110,7 +122,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/github1.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/github1.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -122,7 +134,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/firebase.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/firebase.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>
@@ -134,7 +146,7 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
-    <Image src='/../public/assets/skills/mongo.png' alt=''
+    <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/mongo.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
     <div className='flex flex-col items-center justify-center'>

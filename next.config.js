@@ -6,6 +6,6 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ['github.com'],
+    domains: ['github.com', 'upload.wikimedia.org'],
   },
 }
