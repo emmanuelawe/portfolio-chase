@@ -78,7 +78,7 @@ const Navbar = () => {
             </Link>
         </ul>
 
-        <div  onClick={handleNav} className='md:hidden'>
+        <div  onClick={handleNav} className='md:hidden pr-6'>
         <HiMenu style={{color: `${linkColor}`}} size={25} className='text-[#434346]'/>
     </div>
     </div>
