@@ -10,20 +10,14 @@ const About = () => {
     <h2 className='py-4'>Who I Am</h2>
     <p className='py-2 text-[#434346]'>I&apos;m not your average developer</p>
     <p className='py-2 text-[#434346]'>
-    I have spent the last 12 years in the fire service working as a
-            professional firefighter/paramedic. I have always had a knack for
-            technology and working with computers. In 2019 I started working
-            with HTML and CSS to make some minor edits on a small business
-            website that I was operating. What I thought was just a few small
-            edits turned into a love for programming.
+    Growing up, I&apos;ve always had a passion to learn how anything related to technology works - whether 
+    hardware or software. Initially, it began with my love for creating designs and user interfaces. Then my curious
+    mind wanted to bring those designs to live, so I started off by learning HTML & CSS.
     </p>
     <p className='py-2 text-[#434346]'>
-    Fascinated with how intricate programming can be I was quickly drawn
-            to learn more. I started learning javascript and was even more
-            enthused with making websites interactive. I then started
-            freelancing for e-commerce companies on the Shopify platform. I am
-            now spending my time building projects with React JS, Firebase, and
-            learning new technologies.
+    Fascinated with how intricate programming can be, I was quickly drawn
+            to learn more. I moved on to learn javascript and then discovered the amazing things that 
+            could be done using React JS. Now I spend my time building projects with React JS, Next JS, Tailwind CSS, Firebase, and a bunch of other technologies.
     </p>
     <p className='py-2 text-[#434346] underline cursor-pointer'>Check out some of my latest projects</p>
     </div>
