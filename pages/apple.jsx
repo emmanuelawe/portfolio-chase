@@ -15,7 +15,7 @@ const netflix1 = () => {
     <div className='absolute  max-w-[1240px]  translate-x-10 translate-y-[130%]
     z-10 p-2 text-white'>
         <h2 className='py-2'>Apple UI</h2>
-        <h3>Next JS / TypeScript / Sanity / Redux / Stripe</h3>
+        <h3>Next JS / TypeScript / Stripe</h3>
     </div>
     </div>
 

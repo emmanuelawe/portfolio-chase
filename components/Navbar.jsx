@@ -122,22 +122,25 @@ const Navbar = () => {
         
         <div className='pt-10 '>
             <p className='uppercase text-[#0e61c9]'>Let&apos;s Connect</p>
-            <div className='items-center flex justify-between my-4 w-full sm:w-[80%]'>
+            
+            <div className='items-center flex justify-between max-w-[330px] m-auto py-4'>
             <div className='rounded-full shadow-sm shadow-gray-400 p-3
-            cursor-pointer hover:scale-105 ease-in duration-300'>
-                <FaLinkedinIn />
-            </div>
-            <div className='rounded-full shadow-sm shadow-gray-400 p-3
-            cursor-pointer hover:scale-105 ease-in duration-300'>
+            cursor-pointer hover:scale-110 ease-in duration-300'>
+            <Link href='https://github.com/emmanuelawe'>
                 <FaGithub />
+            </Link>
             </div>
             <div className='rounded-full shadow-sm shadow-gray-400 p-3
-            cursor-pointer hover:scale-105 ease-in duration-300'>
+            cursor-pointer hover:scale-110 ease-in duration-300'>
+            <Link href='https://linkedin.com/in/emmanuel-awe'>
+                <FaLinkedinIn />
+            </Link>
+            </div>
+            <div className='rounded-full shadow-sm shadow-gray-400 p-3
+            cursor-pointer hover:scale-110 ease-in duration-300'>
+            <Link href='mailto:aweemmanuelayobami@gmail.com'>
                 <FiMail/>
-            </div>
-            <div className='rounded-full shadow-sm shadow-gray-400 p-3
-            cursor-pointer hover:scale-105 ease-in duration-300'>
-                <BsFillPersonLinesFill />
+            </Link>
             </div>
             </div>
         </div>
