@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Netflix from '../public/assets/projects/Netflix.png'
-import Apple from '../public/assets/projects/Apple.png'
-import Spotify from '../public/assets/projects/Spotify.png'
-import Blog from '../public/assets/projects/Blog.png'
+import Netflix from '../public/Netflix.png'
+import Apple from '../public/Apple.png'
+import Spotify from '../public/Spotify.png'
+import Blog from '../public/Blog.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
