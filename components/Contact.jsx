@@ -18,7 +18,7 @@ const Contact = () => {
     {/* Left */}
     <div className='col-span-3 lg:col-span-2 w-full h-full shadow-lg 
     shadow-gray-400 rounded-xl p-4'>
-    <div>
+    <div className='mx-auto'>
         <Image className='rounded-xl hover:scale-105 ease-in duration-300' 
         src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/contact.jpg?raw=true' alt='' 
         width='450' height='450' objectFit='cover' />
