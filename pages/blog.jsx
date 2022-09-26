@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Blog from '../public/assets/projects/blog.png'
+import Blog from '../public/Blog.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import {IoArrowBackCircleSharp} from 'react-icons/io5'
 import {MdOutlineRadioButtonChecked} from 'react-icons/md'

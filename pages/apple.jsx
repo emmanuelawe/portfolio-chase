@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Apple from '../public/assets/projects/Apple.png'
+import Apple from '../public/Apple.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import {IoArrowBackCircleSharp} from 'react-icons/io5'
 import {MdOutlineRadioButtonChecked} from 'react-icons/md'

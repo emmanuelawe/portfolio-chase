@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Netflix from '../public/assets/projects/NETFLIX.png'
+import Netflix from '../public/Netflix.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import {IoArrowBackCircleSharp} from 'react-icons/io5'
 import {MdOutlineRadioButtonChecked} from 'react-icons/md'

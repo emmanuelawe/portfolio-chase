@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Spotify from '../public/assets/projects/Spotify.png'
+import Spotify from '../public/Spotify.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import {IoArrowBackCircleSharp} from 'react-icons/io5'
 import {MdOutlineRadioButtonChecked} from 'react-icons/md'
