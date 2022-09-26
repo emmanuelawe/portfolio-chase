@@ -51,7 +51,7 @@ const Navbar = () => {
     className={shadow ? 'fixed w-full h-20 shadow-sm z-[100]' : 'fixed w-full h-20 z-[100]'}>
     <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
     
-    <div className='pl-6'>
+    <div className='pl-8'>
     <Link href='/#home'>
     <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/CHASELogo.png?raw=true' 
     alt='Logo' width='100' height='100' objectFit='cover'
@@ -60,7 +60,7 @@ const Navbar = () => {
     </div>
 
     <div>
-        <ul style={{color: `${linkColor}`}} className='hidden md:flex text-[#434346]'>
+        <ul style={{color: `${linkColor}`}} className='hidden md:flex text-[#434346] pr-8'>
             <Link href='/#home'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
             </Link>

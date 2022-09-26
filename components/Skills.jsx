@@ -5,10 +5,10 @@ const Skills = () => {
   return (
     <div id='skills' className='pt-36 w-full lg:h-screen p-2 '>
     <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-    <p className='text-xl tracking-widest uppercase font-medium text-[#0e61c9]'>Skills</p>
+    <p className='text-xl tracking-widest uppercase text-center font-medium text-[#0e61c9]'>Skills</p>
     <h2 className='py-4'>What I Can Do</h2>
 
-    <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+    <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8'>
 
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -40,7 +40,7 @@ const Skills = () => {
     <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/javascript.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col text-md items-center justify-center'>
     <h3>JavaScript</h3>
     </div>
     </div>
@@ -134,6 +134,18 @@ const Skills = () => {
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
     <div className='m-auto'>
+    <Image src='/assets/skills/redux.png' alt=''
+    width='64' height='64px' />
+    </div>
+    <div className='flex flex-col items-center justify-center'>
+    <h3>Redux</h3>
+    </div>
+    </div>
+    </div>
+
+    <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
+    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+    <div className='m-auto'>
     <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/skills/firebase.png?raw=true' alt=''
     width='64' height='64px' />
     </div>
@@ -142,6 +154,21 @@ const Skills = () => {
     </div>
     </div>
     </div>
+
+
+
+    <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
+    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+    <div className='m-auto'>
+    <Image src='/assets/skills/sanity.png' alt=''
+    width='64' height='64px' />
+    </div>
+    <div className='flex flex-col items-center justify-center'>
+    <h3>Sanity</h3>
+    </div>
+    </div>
+    </div>
+    
 
     <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -154,6 +181,12 @@ const Skills = () => {
     </div>
     </div>
     </div>
+
+
+    
+
+
+    
 
     </div>
 

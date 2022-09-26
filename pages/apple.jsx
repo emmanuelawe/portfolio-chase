@@ -1,21 +1,21 @@
 import Image from 'next/image'
 import React from 'react'
-import Netflix from '../public/assets/projects/NETFLIX.png'
+import Apple from '../public/assets/projects/Apple.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import {IoArrowBackCircleSharp} from 'react-icons/io5'
 import {MdOutlineRadioButtonChecked} from 'react-icons/md'
 import Link from 'next/link'
 
-const netflix = () => {
+const netflix1 = () => {
   return (
     <div className='w-full'>
     <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
     <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'/>
-    <Image className='absolute z-1' layout='fill' objectFit='cover' src={Netflix} alt='' />
+    <Image className='absolute z-1' layout='fill' objectFit='cover' src={Apple} alt='' />
     <div className='absolute  max-w-[1240px]  translate-x-10 translate-y-[130%]
     z-10 p-2 text-white'>
-        <h2 className='py-2'>Netflix UI</h2>
-        <h3>Next JS / TypeScript / Firebase</h3>
+        <h2 className='py-2'>Apple UI</h2>
+        <h3>Next JS / TypeScript / Sanity / Redux / Stripe</h3>
     </div>
     </div>
 
@@ -23,23 +23,18 @@ const netflix = () => {
     <div className='col-span-4'>
           <h2>Project Overview</h2>
           <p className='pt-6'>
-            This build was modelled after Netlix&apos;s website. It&apos;s an movie trailer website 
-            that uses a custom made authentication for sign in & sign up. The movies are gotten using TMDB Api and Firebase is the database used to store details and other details.
+            This build was modelled after Apple&apos;s website. It&apos;s an ecommerce website 
+            that uses Google authentication for signin and Stripe payment gateway for processing 
+            payments. 
           </p>
           <p className='pt-2'>
-            It was built using Next JS, Typescript and Firebase to make the overall experience while 
+            It was built using Next JS, Typescript and Redux to make the overall experience while 
             using the web app seamless.
           </p>
-
-          <p className='pt-4 font-medium'>
-            Demo Account Sign In Details: <br/>
-            Email: chase@gmail.com <br/>
-            Password: 12345678
-          </p>
-          <Link href='https://netflix-chase.vercel.app'>
+          <Link href='https://apple-chase.vercel.app'>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='https://github.com/emmanuelawe/netflix-chase'>
+          <Link href='https://github.com/emmanuelawe/apple-chase'>
           <button className='px-8 py-2 mt-4'>Code</button>
           </Link>
     </div>
@@ -51,8 +46,9 @@ const netflix = () => {
         <p className='text-[#434346] py-2 flex items-center'><MdOutlineRadioButtonChecked/> Next JS</p>
         <p className='text-[#434346] py-2 flex items-center'><MdOutlineRadioButtonChecked/> TypeScript</p>
         <p className='text-[#434346] py-2 flex items-center'><MdOutlineRadioButtonChecked/> Tailwind CSS</p>
-        <p className='text-[#434346] py-2 flex items-center'><MdOutlineRadioButtonChecked/> Firebase</p>
-        <p className='text-[#434346] py-2 flex items-center'><MdOutlineRadioButtonChecked/> TMDB Api</p>
+        <p className='text-[#434346] py-2 flex items-center'><MdOutlineRadioButtonChecked/> Sanity</p>
+        <p className='text-[#434346] py-2 flex items-center'><MdOutlineRadioButtonChecked/> Redux</p>
+        <p className='text-[#434346] py-2 flex items-center'><MdOutlineRadioButtonChecked/> Stripe</p>
     </div>
     </div>
     </div>
@@ -66,4 +62,4 @@ const netflix = () => {
   )
 }
 
-export default netflix
+export default netflix1
