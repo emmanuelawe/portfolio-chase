@@ -20,12 +20,12 @@ const About = () => {
             could be done using React JS. Now I spend my time building projects with React JS, Next JS, Tailwind CSS, Firebase, and a bunch of other technologies.
     </p>
     <Link href='/#projects'>
-    <p className='link py-2 tracking-wide cursor-pointer text-[#434346]'>Check out some of my latest projects</p>
+    <p className='link py-2 tracking-wide cursor-pointer text-[#434346] px-2'>Check out some of my latest projects</p>
     </Link>
     </div>
 
     <div className=' m-auto flex items-center 
-    justify-center p-4 hover:scale-105 ease-in duration-500 pt-6 w-96 h-96 md:h-full md:w-full'>
+    justify-center p-4 hover:scale-105 ease-in duration-500 pt-6 h-full w-auto'>
         <Image  src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/Chasepfp.png?raw=true' alt='' 
         width='350' height="350" objectFit='cover' />
     </div>
