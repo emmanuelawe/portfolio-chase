@@ -20,7 +20,7 @@ export default function Home() {
       <Navbar/>
       </div>
 
-      <div className='md:px-8 pl-4'>
+      <div className='md:px-8 px-4'>
       <Main/>
       <About/>
       <Skills />
