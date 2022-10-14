@@ -5,11 +5,10 @@ import React from 'react'
 const About = () => {
   return (
     <div id='about' className='pt-40 w-full md:h-screen p-2 flex items-center py-16'>
-    <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+    <div className='max-w-[1152px] snap-center 2xl:max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
     <div className='col-span-2'>
-    <p className='uppercase text-xl tracking-widest text-center font-medium text-[#0e61c9]'>About</p>
-    <h2 className='py-4'>Who I Am</h2>
-    <p className='py-2 text-[#434346]'>I&apos;m not your average developer.</p>
+    <p className='uppercase text-2xl pb-14 tracking-[15px] text-center font-medium text-[#0e61c9]'>About</p>
+    <p className='py-2 text-[#434346]'>Not your average developer.</p>
     <p className='py-2 text-[#434346]'>
     Growing up, I&apos;ve always had a passion to learn how anything related to technology works - whether 
     hardware or software. Initially, it began with my love for creating designs and user interfaces. Then my curious
@@ -25,8 +24,8 @@ const About = () => {
     </Link>
     </div>
 
-    <div className='w-full h-auto m-auto flex items-center 
-    justify-center p-4 hover:scale-105 ease-in duration-500 pt-6'>
+    <div className=' m-auto flex items-center 
+    justify-center p-4 hover:scale-105 ease-in duration-500 pt-6 w-96 h-96 md:h-auto md:w-full'>
         <Image  src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/Chasepfp.png?raw=true' alt='' 
         width='350' height="350" objectFit='cover' />
     </div>

@@ -12,14 +12,14 @@ const netflix2 = () => {
     <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
     <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'/>
     <Image className='absolute z-1' layout='fill' objectFit='cover' src={Spotify} alt='' />
-    <div className='absolute  max-w-[1240px]  translate-x-10 translate-y-[130%]
+    <div className='absolute  max-w-[1152px] 2xl:max-w-[1240px]  translate-x-10 translate-y-[130%]
     z-10 p-2 text-white'>
         <h2 className='py-2'>Spotify UI</h2>
         <h3>Next JS/ Javascript / Spotify Api</h3>
     </div>
     </div>
 
-    <div className='max-w-[1240px] mx-10 p-2 grid md:grid-cols-5 gap-8 pt-8'>
+    <div className='max-w-[1152px] 2xl:max-w-[1240px] mx-10 p-2 grid md:grid-cols-5 gap-8 pt-8'>
     <div className='col-span-4'>
           <h2>Project Overview</h2>
           <p className='pt-6'>

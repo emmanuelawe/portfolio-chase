@@ -7,6 +7,7 @@ import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {FiMail} from 'react-icons/fi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useRouter } from 'next/router'
+import {motion} from 'framer-motion'
 
 const Navbar = () => {
   /*   const [isScrolled, setIsScrolled] = useState(false) */
@@ -51,15 +52,44 @@ const Navbar = () => {
     className={shadow ? 'fixed w-full h-20 shadow-sm z-[100]' : 'fixed w-full h-20 z-[100]'}>
     <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
     
-    <div className='pl-8'>
+    <motion.div 
+    initial={{
+        x: -500,
+        opacity: 0,
+        scale: 0.5
+    }}
+    animate={{
+        x: 0,
+        opacity: 1,
+        scale: 1
+    }}
+    transition={{
+        duration: 1.5
+    }}
+
+    className='2xl:pl-8 pl-4 md:pl-12'>
     <Link href='/#home'>
     <Image src='https://github.com/emmanuelawe/portfolio-chase/blob/main/public/assets/CHASELogo.png?raw=true' 
     alt='Logo' width='100' height='100' objectFit='cover'
      />
      </Link>
-    </div>
+    </motion.div>
 
-    <div>
+    <motion.div
+    initial={{
+        x: 500,
+        opacity: 0,
+        scale: 0.5
+    }}
+    animate={{
+        x: 0,
+        opacity: 1,
+        scale: 1
+    }}
+    transition={{
+        duration: 1.5
+    }}
+    >
         <ul style={{color: `${linkColor}`}} className='hidden md:flex text-[#434346] pr-8'>
             <Link href='/#home'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
@@ -74,14 +104,14 @@ const Navbar = () => {
                 <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
             </Link>
             <Link href='/#contact'>
-                <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+                <li className='ml-10 text-sm uppercase hover:border-b pr-6'>Contact</li>
             </Link>
         </ul>
 
-        <div  onClick={handleNav} className='md:hidden pr-6'>
+        <div  onClick={handleNav} className='md:hidden pr-4'>
         <HiMenu style={{color: `${linkColor}`}} size={25} className='text-[#434346]'/>
     </div>
-    </div>
+    </motion.div>
     </div>
 
     <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/10' : ''}>
