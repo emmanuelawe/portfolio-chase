@@ -19,7 +19,7 @@ const { register, handleSubmit} = useForm();
   return (
     <div id='contact' className='pt-10 w-full lg:h-screen'>
         <div className='max-w-[1152px] 2xl:max-w-[1240px] m-auto px-2 py-16 w-ful'>
-    <p className='text-2xl uppercase tracking-[15px] text-center font-medium pb-14 text-[#0e61c9]'>Contact</p>
+    <p className='text-2xl uppercase tracking-[15px] text-center font-medium pb-10 text-[#0e61c9]'>Contact</p>
 
     <div className='grid lg:grid-cols-5 gap-8'>
 

@@ -8,7 +8,7 @@ const Skills = () => {
     <div 
     id='skills' className='pt-36 w-full lg:h-screen p-2 '>
     <div className='max-w-[1152px] 2xl:max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-    <p className='text-2xl tracking-[15px] uppercase text-center pb-14 font-medium text-[#0e61c9]'>Skills</p>
+    <p className='text-2xl tracking-[15px] uppercase text-center pb-10 font-medium text-[#0e61c9]'>Skills</p>
 
     <motion.div 
     initial="initial"

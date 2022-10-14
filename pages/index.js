@@ -20,7 +20,7 @@ export default function Home() {
       <Navbar/>
       </div>
 
-      <div className='px-4 md:px-8 snap-y snap-mandatory'>
+      <div className='md:px-8 pl-4'>
       <Main/>
       <About/>
       <Skills />
