@@ -9,11 +9,11 @@ const About = () => {
     <div className='col-span-2'>
     <p className='uppercase text-xl tracking-widest text-center font-medium text-[#0e61c9]'>About</p>
     <h2 className='py-4'>Who I Am</h2>
-    <p className='py-2 text-[#434346]'>I&apos;m not your average developer.</p>
+    <p className='py-2 text-[#434346]'>Not your average developer.</p>
     <p className='py-2 text-[#434346]'>
     Growing up, I&apos;ve always had a passion to learn how anything related to technology works - whether 
-    hardware or software. Initially, it began with my love for creating designs and user interfaces. Then my curious
-    mind wanted to bring those designs to live, so I started off by learning HTML & CSS.
+    hardware or software. Initially, it began with my passion for creating designs and user interfaces. Then my curious
+    mind wanted to bring those designs to life, so I started off by learning HTML & CSS.
     </p>
     <p className='py-2 text-[#434346]'>
     Fascinated with how intricate programming can be, I was quickly drawn

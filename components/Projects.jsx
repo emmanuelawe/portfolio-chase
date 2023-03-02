@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import ChatGPT from '../public/chatgpt.jpg'
+import Instagram from '../public/instagram.jpg'
 import Netflix from '../public/Netflix.png'
 import Apple from '../public/Apple.png'
 import Spotify from '../public/Spotify.png'
@@ -16,17 +18,23 @@ const Projects = () => {
 
     <div className='grid md:grid-cols-2 gap-8'>
 
-   <ProjectItem title='Netflix UI' 
+    <ProjectItem title='ChatGPT Redesign' 
+   bgImage={ChatGPT} projectUrl='/chatgpt'/>
+
+   <ProjectItem title='Netflix Redesign' 
    bgImage={Netflix} projectUrl='/netflix'/>
 
-    <ProjectItem title='Apple UI' 
+    <ProjectItem title='Apple Redesign' 
    bgImage={Apple} projectUrl='/apple'/>
 
-    <ProjectItem title='Spotify UI' 
+    <ProjectItem title='Spotify Redesign' 
    bgImage={Spotify} projectUrl='/spotify'/>
 
     <ProjectItem title='Blog' 
    bgImage={Blog} projectUrl='/blog'/>
+
+<ProjectItem title='Instagram Redesign' 
+   bgImage={Instagram} projectUrl='/instagram'/>
 
     </div>
 
