@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import Swirx from "../public/swirx.png";
+import Linqtrim from "../public/linqtrim.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import { IoArrowBackCircleSharp } from "react-icons/io5";
 import { MdOutlineRadioButtonChecked } from "react-icons/md";
 import Link from "next/link";
 
-const netflix1 = () => {
+const linqtrim = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -15,15 +15,15 @@ const netflix1 = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Swirx}
+          src={Linqtrim}
           alt=""
         />
         <div
           className="absolute  max-w-[1240px]  translate-x-10 translate-y-[130%]
     z-10 p-2 text-white"
         >
-          <h2 className="py-2">Swirx</h2>
-          <h3>Next JS / TypeScript / Stripe</h3>
+          <h2 className="py-2">Linqtrim</h2>
+          <h3>Next JS 14 / TypeScript / Supabase</h3>
         </div>
       </div>
 
@@ -31,15 +31,17 @@ const netflix1 = () => {
         <div className="col-span-4">
           <h2>Project Overview</h2>
           <p className="pt-6">
-            It&apos;s an ecommerce website that uses Google authentication for
-            signin and Stripe payment gateway for processing payments.
+            Ultimate URL Shortening Tool: Simplify link management, analysis,
+            and branding. Features include short links, QR codes, and more.
+            Effortlessly start shortening and tracking your links.
           </p>
           <p className="pt-2">
-            It was built using Next JS, Typescript and Redux to make the overall
-            experience while using the web app seamless.
+            It was built using Next JS 14, Typescript and Supabase to make the
+            overall experience while using the web app seamless.
           </p>
+
           <a
-            href="https://apple-chase.vercel.app"
+            href="https://linqtrim.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -47,7 +49,7 @@ const netflix1 = () => {
           </a>
 
           <a
-            href="https://github.com/emmanuelawe/apple-chase"
+            href="https://github.com/emmanuelawe/linqtrim"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -60,7 +62,7 @@ const netflix1 = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-2 md:grid-cols-1">
               <p className="text-[#434346] py-2 flex items-center">
-                <MdOutlineRadioButtonChecked /> Next JS
+                <MdOutlineRadioButtonChecked /> Next JS 14
               </p>
               <p className="text-[#434346] py-2 flex items-center">
                 <MdOutlineRadioButtonChecked /> TypeScript
@@ -69,13 +71,7 @@ const netflix1 = () => {
                 <MdOutlineRadioButtonChecked /> Tailwind CSS
               </p>
               <p className="text-[#434346] py-2 flex items-center">
-                <MdOutlineRadioButtonChecked /> Sanity
-              </p>
-              <p className="text-[#434346] py-2 flex items-center">
-                <MdOutlineRadioButtonChecked /> Redux
-              </p>
-              <p className="text-[#434346] py-2 flex items-center">
-                <MdOutlineRadioButtonChecked /> Stripe
+                <MdOutlineRadioButtonChecked /> Supabase
               </p>
             </div>
           </div>
@@ -91,4 +87,4 @@ const netflix1 = () => {
   );
 };
 
-export default netflix1;
+export default linqtrim;
